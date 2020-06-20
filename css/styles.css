@@ -1,0 +1,272 @@
+/*###################################TAG SELECTORS#####################################*/
+/*THE WHOLE BODY TWEAK*/
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+/*THE MAIN WEBPAGE HEADING*/
+h1 {
+    color: #00ff84;
+    /*color: #e83344;*/
+    /*color: #e76f51;*/
+    /*color: #66BFBF;*/
+    /*font-family: 'Sacramento', cursive;*/
+    font-family: 'Bungee Shade', cursive;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+}
+
+/*THE SECTION TITELS*/
+h2 {
+    color: #3d5a80;
+    /*color: #ed1402;*/
+    /*color: #66BFBF;*/
+    font-family: 'Merriweather', serif;
+    font-size: 2.5rem;
+
+    font-weight: normal;
+}
+
+
+/*THE SUB-HEADINGS OF SECTIONS*/
+h3 {
+    color: #247ba0;
+    /*color: #11999E;*/
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+}
+
+/*ALL THE PARAGRAPHS CONTENT*/
+p {
+    color: #323536;
+    /*color: #444f5a;*/
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 2;
+}
+
+/*ALL THE LINKS*/
+a {
+    color: #00ff84;
+    /*color: #11999E;*/
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/*ON POINTIG MOUSE OVER LINKS ACTION*/
+a:hover {
+    color: #f5f5f5;
+}
+
+/*THE HORIZONTAL LIKE/DIVIDER PROPERTY*/
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 3%;
+    margin: 100px auto;
+}
+
+/*################################CLASS SELECTOR#######################################*/
+
+/*COLOR WHILE SELECTING TEXT*/
+::selection {
+    background: #e83344;
+    /*#00E677;*/
+    color: white;
+}
+
+/*THE TOP PART OF THE WEBPAGE*/
+.top_container {
+    background-color: #002333;
+    /*background-color: #314758;*/
+    /*background-color: #E1EBE8 #4c4f4f;*/
+    position: relative;
+    padding-top: 10px;
+}
+
+/*THE TEXT BELOW THE MAIN PAGE TITLE*/
+.header-text {
+    color: white;
+    /*color: #f9b232;*/
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Sacramento', cursive;
+    margin-top: 0;
+    margin-left: 350px;
+}
+
+/*THE IMAGE BELOW THE PAGE TITLE HEADING IN TOP CONTAINER*/
+.prog {
+    width: 48%;
+    margin: 0;
+}
+
+/*THE TOTAL MIDDLE PART OF THE WEBPAGE*/
+.middle-container {
+    margin-top: 70px;
+}
+
+/*ABOUT ME IMAGE*/
+.me {
+    width: 50%;
+}
+
+/*CONTENTS OF ABOUT ME*/
+.profile {
+    width: 60%;
+    margin: auto;
+    /*margin: 50px auto 50px auto;*/
+    /*padding-bottom: 70px;*/
+}
+
+/*MY PROFILE INTRODUCTION*/
+.intro {
+    line-height: 2;
+    width: 35%;
+    margin: auto;
+}
+
+/*SKILL DIV TWEAK*/
+.skills {
+    /*background-color: pink;*/
+}
+
+/*CONTENTS OF THE WHOLE SKILL ROW*/
+.skill-row {
+    width: 50%;
+    margin: 50px auto 50px auto;
+    text-align: left;
+    /*position: relative;
+  left: 350px;*/
+}
+
+/*WEB DESIGNING SECTION IMAGE*/
+.img-wd {
+    width: 20%;
+    float: left;
+    margin-right: 50px;
+}
+
+/*GRAPHIC DESIGN SECTION IMAGE*/
+.img-gd {
+    width: 20%;
+    float: right;
+    margin-left: 50px;
+}
+
+
+/* WHOLE CONTACT ME SECTION*/
+.contact-me {
+    /*padding-bottom: 40px;*/
+    /*margin: 50px auto 50px auto;*/
+    /*padding-top: 20px;
+  padding-bottom: 20px;*/
+    /*padding-top: 50px;
+  padding-bottom: 50px;*/
+}
+
+/*COFFEE SECTION OF CONTACT ME SECTION*/
+.coffee {
+    line-height: 2;
+    width: 40%;
+    margin: 40px auto 40px;
+}
+
+/*COFFEE IMAGE SECTION*/
+.coffee-img {
+    width: 16%;
+}
+
+/*WORK WITH ME SECTION*/
+.work-with-me {
+    line-height: 2;
+    width: 40%;
+    margin: 40px auto 40px;
+    padding-bottom: 60px;
+}
+
+/*THE MAIL ME BUTTON PROPERTIES*/
+.btn {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #00ff84;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1rem;
+    padding: 5px 50px 5px 50px;
+    background-color: #002333;
+    /*background-color: 66BFBF;*/
+    border: solid #002333 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn:hover {
+    background: white;
+    color: #314758;
+    border: solid #314758 1px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+/*THE WHOLE BOTTOM CONTAINER SECTION*/
+.bottom-container {
+    background-color: #002333;
+    /*background-color: #66BFBF;*/
+    /*margin: 0;*/
+    position: relative;
+    padding: 40px 0 10px;
+    /*word-spacing: 3rem;*/
+}
+
+
+
+/*THE COPYRIGHT SECTION AT BOTTOM CONTAINER*/
+.copyright {
+    font-size: 0.7rem;
+    color: #00ff84;
+    padding: 50px 0 0;
+}
+
+/*FOOTER LINKS IN THE FOOTER SECTION*/
+.footer-link {
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 20px 10px;
+}
+
+
+
+
+
+/*.btn {
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 4px;
+  margin-top: 2%;
+  color: #0B5F4C;
+  font-family: Arial;
+  padding: 15px;
+  width: 25%;
+  background-color: #11999E;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #11999E;
+  border: solid #34917C 0px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+}*/
