@@ -20,7 +20,7 @@ h1 {
 
 /*THE SECTION TITELS*/
 h2 {
-    color: #3d5a80;
+    color: #002333;
     /*color: #ed1402;*/
     /*color: #66BFBF;*/
     font-family: 'Merriweather', serif;
@@ -40,7 +40,7 @@ h3 {
 
 /*ALL THE PARAGRAPHS CONTENT*/
 p {
-    color: #323536;
+    color: #002333;
     /*color: #444f5a;*/
     font-size: 1.2rem;
     font-weight: normal;
