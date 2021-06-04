@@ -91,11 +91,11 @@ hr {
 .header-text {
     color: white;
     /*color: #f9b232;*/
-    font-size: 0.3rem;
-    font-weight: 500;
+    font-size: 0.5rem;
+    font-weight: 300;
     font-family: 'Sacramento', cursive;
     margin-top: 0;
-    margin-left: 350px;
+    margin-left: 340px;
 }
 
 /*THE IMAGE BELOW THE PAGE TITLE HEADING IN TOP CONTAINER*/
